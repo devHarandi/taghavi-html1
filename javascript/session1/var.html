@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    
+</head>
+<body>
+
+<label>Number 1:</label>
+<input type="text" id="num1" value="10">
+
+<label>Number 2:</label>
+<input type="text" id="num2" value="20">
+
+<button id="change" onclick="change()">Change</button>
+
+<script>
+
+function change()
+{   
+    a = document.getElementById("num1").value;
+    b = document.getElementById("num2").value;
+
+    c = a;
+    a = b;
+    b = c;
+
+    document.getElementById("num1").value = a;
+    document.getElementById("num2").value = b;
+
+
+    // var a = 2;
+    // var b = 10;
+
+    // console.log("output a : " + a);
+    // console.log("output b : " + b);
+
+    // var c = a;
+    // a = b;
+    // b = c;
+
+    // console.log("output a : " + a);
+    // console.log("output b : " + b);
+
+
+}
+
+</script>
+
+
+</body>
+</html>

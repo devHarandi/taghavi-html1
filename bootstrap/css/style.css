@@ -1,0 +1,11 @@
+.top-gif
+{
+    background: url('../img/top-gif.gif');
+    width: 100%;
+    height: 50px;
+    background-size: 100%;
+}
+.border-left
+{
+    border-left: 1px solid #ccc;
+}
